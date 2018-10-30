@@ -35,6 +35,7 @@
       <td><?php echo $baris_data['fullname']; ?></td>
       <td align="center">
         <a href="../ubah/ubah.php?id=<?php echo $baris_data['id']; ?>">Ubah</a>
+        <a href="../Hapus/hapus.php?id=<?php echo $baris_data['id']; ?>">Hapus</a>
       </td>
     </tr>
   <?php }
